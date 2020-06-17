@@ -9,12 +9,9 @@ body{
     line-height: normal;
 
 }
-.templet{
-    width: 960px;
-    margin: 0 auto;
-}
+
 .headersection{
-    height: 85px;
+    width: 100%;
     background: black;
     color: white;
 }
@@ -30,7 +27,29 @@ body{
 .menusection h2{
     padding-left: 50px;
 }
+.maincontain{
+    padding: 30px;
+    background: #efefef;
+    text-align: justify;
+    font-size: 20px;
+}
+.main-contain{
+    padding-right: 20px;
+    width: 811px;
+    background: #efefef;
+    text-align: justify;
+    font-size: 20px;
+}
+.sidebar{
+    float: right;
+    font-size: 20px;
+    width: 380px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: gray;
 
+}
 .footersection{
     background: gray;
 }
