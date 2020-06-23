@@ -21,8 +21,9 @@ body{
     font-size: 30px;
 }
 .menusection {
-    height: 30px;
+    
     background: gray;
+    height: 40px;
 }
 .menusection h2{
     padding-left: 50px;
@@ -62,7 +63,32 @@ body{
     margin-bottom: 8px;
     border-bottom: 2px solid black;
 }
-
+.navigaion{
+    background:;
+}
+.navigaion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigaion ul li{
+    display: block;
+    float: left;
+}
+.navigaion ul li a{
+    display: block;
+    background:rgb(201, 192, 192) ;
+    border: 1px solid #444;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 5px;
+    color: #444;
+    font-size: 20px;
+}
+.navigaion ul li a:hover{
+    background: #444444;
+    color: white;
+}
 .footersection{
     background: gray;
 }
