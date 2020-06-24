@@ -3,6 +3,14 @@
     padding: 0;
     outline: 0;
 }
+.clear{
+    overflow: hidden;
+}
+.templet{
+    width: 960px;
+    background: #ddd;
+    margin: 0 auto;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -11,7 +19,7 @@ body{
 }
 
 .headersection{
-    width: 100%;
+    
     background: black;
     color: white;
 }
@@ -20,41 +28,18 @@ body{
     padding-top: 25px;
     font-size: 30px;
 }
-.menusection{
-    background: gray;
+.menusection {
+    background:#1E1E1E;
     height: 40px;
+}
+.navigaion{
+    background: #1E1E1E;
 }
 .menusection h2{
     padding-left: 50px;
-}
-.maincontain{
-    padding: 30px;
-    background: #efefef;
-    text-align: justify;
-    font-size: 20px;
-}
-.main-contain{
-    padding: 20px;
-    width: 790px;
-    background: #efefef;
-    text-align: justify;
-    font-size: 20px;
-}
-.main-contain p{
     margin-bottom: 10px;
-    line-height: 22px;
-    font-size: 16px;
 }
-.sidebar{
-    float: right;
-    font-size: 16px;
-    width: 330px;
-    height: 100%;
-    padding-left: 10px;
-    padding: 20px;
-    background: #efefef;
 
-}
 .samesidebar h2{
     background: gray;
     padding: 10px;
@@ -62,9 +47,7 @@ body{
     margin-bottom: 8px;
     border-bottom: 2px solid black;
 }
-.navigaion{
-    background:gray;
-}
+
 .navigaion ul{
     margin: 0;
     padding: 0;
@@ -88,10 +71,60 @@ body{
     background: #444444;
     color: white;
 }
-.footersection{
+.maincontain{
+    width: 600px;
+    background:#DFDFDF ;
+    float: left;
+    margin: 10px;
+}
+.samepost{
+
+}
+.samepost h2{
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.samepost img{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.samepost p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+.readmore{
+    float: right;
+    margin-top:10px ;
+}
+.readmore a{
+    text-decoration: none;
+    background:#fff ;
+    display: block;
+    padding:5px 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.readmore a:hover{
+    background: back;
+    color: white;
+}
+.sidebar{
+    width: 300px;
+    background:#BBB9BA ;
+    float: right;
+}
+.footer{
     background: gray;
 }
-.footersection p{
+.footer p{
     text-align: center;
     font-size: 30px;
     color: white;
