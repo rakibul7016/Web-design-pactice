@@ -8,7 +8,7 @@
 }
 .templet{
     width: 960px;
-    background: #ddd;
+    
     margin: 0 auto;
 }
 body{
@@ -20,30 +20,43 @@ body{
 
 .headersection{
     
-    background: black;
-    color: white;
+    background: #c48d29;
+    color: black;
 }
 .headersection h2{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .menusection {
     background:#1E1E1E;
     height: 40px;
 }
 .navigaion{
-    background: #1E1E1E;
+    background: #FFA62F;
 }
 .menusection h2{
     padding-left: 50px;
     margin-bottom: 10px;
 }
-
-.samesidebar h2{
-    background: gray;
+.samepost{
+    margin: 10px;
+}
+.sidebar{
+    width: 300px;
+    background:#FFEBCD ;
+    float: right;
+    margin-top: 10px;
+    border: 1px solid #c48d29 ;
+}
+.samesidebar{
     padding: 10px;
-    color: white;
+}
+.samesidebar h2{
+    background: #EE9A4D;
+    padding: 10px;
+    color: black;
     margin-bottom: 8px;
     border-bottom: 2px solid black;
 }
@@ -59,8 +72,8 @@ body{
 }
 .navigaion ul li a{
     display: block;
-    background:rgb(201, 192, 192) ;
-    border: 1px solid #444;
+    background:#FFA62F;
+    border: 1px solid #c48d29;
     text-decoration: none;
     padding: 5px 30px;
     margin: 5px;
@@ -68,64 +81,30 @@ body{
     font-size: 20px;
 }
 .navigaion ul li a:hover{
-    background: #444444;
+    background: #c48d29;
     color: white;
 }
 .maincontain{
-    width: 600px;
-    background:#DFDFDF ;
+    width: 577px;
+    background: #FFEBCD;
     float: left;
-    margin: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #c48d29;
 }
-.samepost{
 
-}
-.samepost h2{
-    font-size: 24px;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    margin-bottom: 10px;
-}
-.samepost img{
-    float: left;
-    width: 200px;
-    margin-right: 10px;
-    background: #fff;
-    padding: 5px;
-    border: 1px solid gray;
-}
+
+
 .samepost p{
     font-size: 16px;
     line-height: 22px;
     text-align: justify;
 }
-.readmore{
-    float: right;
-    margin-top:10px ;
-    
-}
-.readmore a{
-    text-decoration: none;
-    background:gray;
-    display: block;
-    color: #fff;
-    padding:5px 10px;
-    
-    font-size: 17px;
-    border: 1px solid gray;
-    border-radius: 3px;
-}
-.readmore a:hover{
-    background:black;
-    color: white;
-}
-.sidebar{
-    width: 300px;
-    background:#BBB9BA ;
-    float: right;
-}
+
+
+
 .footer{
-    background: gray;
+    background: #c48d29;
 }
 .footer p{
     text-align: center;
